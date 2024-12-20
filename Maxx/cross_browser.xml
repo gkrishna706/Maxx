@@ -1,0 +1,20 @@
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="TestA">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.maxx.testscript.UserModule"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="TestB">
+  <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="com.maxx.testscript.UserModule"/>
+    </classes>
+  </test>
+  <test thread-count="5" name="TestC">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.maxx.testscript.UserModule"/>
+    </classes>
+  </test> 
+</suite> 

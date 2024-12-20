@@ -1,0 +1,17 @@
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="TestA">
+    <classes>
+      <class name="com.maxx.testscript.CustomerModule"/>
+    </classes>
+  </test> 
+   <test thread-count="5" name="TestB">
+    <classes>
+      <class name="com.maxx.testscript.ProjectModule"/>
+    </classes>
+  </test> 
+   <test thread-count="5" name="TestC">
+    <classes>
+      <class name="com.maxx.testscript.UserModule"/>
+    </classes>
+  </test> 
+</suite> 
